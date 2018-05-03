@@ -1,0 +1,123 @@
+\hypertarget{class_match_grid}{}\section{Match\+Grid Class Reference}
+\label{class_match_grid}\index{Match\+Grid@{Match\+Grid}}
+
+
+The \mbox{\hyperlink{class_match_grid}{Match\+Grid}} class.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_match_grid_acfd92ec568e826d6ea23fb7d2bb92800}{Match\+Grid}} ()
+\begin{DoxyCompactList}\small\item\em The default constructor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_match_grid_a3ac68858317325bcd611aa811dab54ad}{get}} (int row, int col)
+\begin{DoxyCompactList}\small\item\em A custom getter method. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_match_grid_adc3b7a588c1b58a737f3ef45a10a7888}{show}} (int row, int col)
+\begin{DoxyCompactList}\small\item\em A method that unhides the image and increases score if it matches. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_match_grid_a39fcc7cc9b094d95d2aee459c9e287df}{get\+Score}} ()
+\begin{DoxyCompactList}\small\item\em A method for getting the score. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_grid_ada04481d2f01ef0011a7bb4707d2b911}{hide}} ()
+\begin{DoxyCompactList}\small\item\em Hides all images. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_match_grid_a67c79ef33744f135e5a9b483bf5e369f}{print\+Grid}} ()
+\begin{DoxyCompactList}\small\item\em Prints the contents of grid\mbox{[}\mbox{]}\mbox{[}\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \mbox{\hyperlink{class_match_grid}{Match\+Grid}} class. 
+
+Sets up and populates the grid used for displaying the circles, and contains methods for interacting with it. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_match_grid_acfd92ec568e826d6ea23fb7d2bb92800}\label{class_match_grid_acfd92ec568e826d6ea23fb7d2bb92800}} 
+\index{Match\+Grid@{Match\+Grid}!Match\+Grid@{Match\+Grid}}
+\index{Match\+Grid@{Match\+Grid}!Match\+Grid@{Match\+Grid}}
+\subsubsection{\texorpdfstring{Match\+Grid()}{MatchGrid()}}
+{\footnotesize\ttfamily Match\+Grid.\+Match\+Grid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The default constructor. 
+
+Populates the grid array with random values. $<$ The number of circles left to populate.
+
+$<$ Used to select which circle will be populated. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_match_grid_a3ac68858317325bcd611aa811dab54ad}\label{class_match_grid_a3ac68858317325bcd611aa811dab54ad}} 
+\index{Match\+Grid@{Match\+Grid}!get@{get}}
+\index{get@{get}!Match\+Grid@{Match\+Grid}}
+\subsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily int Match\+Grid.\+get (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+A custom getter method. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row to query \\
+\hline
+{\em col} & the column to query \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If it is showing, the grid index; if not, 0. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_match_grid_a39fcc7cc9b094d95d2aee459c9e287df}\label{class_match_grid_a39fcc7cc9b094d95d2aee459c9e287df}} 
+\index{Match\+Grid@{Match\+Grid}!get\+Score@{get\+Score}}
+\index{get\+Score@{get\+Score}!Match\+Grid@{Match\+Grid}}
+\subsubsection{\texorpdfstring{get\+Score()}{getScore()}}
+{\footnotesize\ttfamily int Match\+Grid.\+get\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A method for getting the score. 
+
+\begin{DoxyReturn}{Returns}
+The score of the game. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_match_grid_ada04481d2f01ef0011a7bb4707d2b911}\label{class_match_grid_ada04481d2f01ef0011a7bb4707d2b911}} 
+\index{Match\+Grid@{Match\+Grid}!hide@{hide}}
+\index{hide@{hide}!Match\+Grid@{Match\+Grid}}
+\subsubsection{\texorpdfstring{hide()}{hide()}}
+{\footnotesize\ttfamily void Match\+Grid.\+hide (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Hides all images. 
+
+\mbox{\Hypertarget{class_match_grid_a67c79ef33744f135e5a9b483bf5e369f}\label{class_match_grid_a67c79ef33744f135e5a9b483bf5e369f}} 
+\index{Match\+Grid@{Match\+Grid}!print\+Grid@{print\+Grid}}
+\index{print\+Grid@{print\+Grid}!Match\+Grid@{Match\+Grid}}
+\subsubsection{\texorpdfstring{print\+Grid()}{printGrid()}}
+{\footnotesize\ttfamily void Match\+Grid.\+print\+Grid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Prints the contents of grid\mbox{[}\mbox{]}\mbox{[}\mbox{]}. 
+
+\mbox{\Hypertarget{class_match_grid_adc3b7a588c1b58a737f3ef45a10a7888}\label{class_match_grid_adc3b7a588c1b58a737f3ef45a10a7888}} 
+\index{Match\+Grid@{Match\+Grid}!show@{show}}
+\index{show@{show}!Match\+Grid@{Match\+Grid}}
+\subsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily boolean Match\+Grid.\+show (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+A method that unhides the image and increases score if it matches. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & the row to use \\
+\hline
+{\em col} & the column to use \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if it completes, false if the image is already shown 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_match_grid_8java}{Match\+Grid.\+java}}\end{DoxyCompactItemize}
